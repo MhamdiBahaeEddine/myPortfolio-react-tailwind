@@ -44,7 +44,7 @@ export const ContactSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">Contact information</h3>
-            <div className="space-y-6 justify-center">
+            <div className="space-y-6 justify-center text-left">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />
@@ -92,16 +92,16 @@ export const ContactSection = () => {
                   target="_blank"
                   href="https://www.linkedin.com/in/bahae-eddine-mhamdi-13190b247/"
                 >
-                  <Linkedin />
+                  <Linkedin className="hover:text-primary transition-colors duration-300"/>
                 </a>
                 <a target="_blank" href="https://github.com/MhamdiBahaeEddine">
-                  <Github />
+                  <Github className="hover:text-primary transition-colors duration-300"/>
                 </a>
                 <a
                   target="_blank"
                   href="https://www.instagram.com/m_bahaeeddine/"
                 >
-                  <Instagram />
+                  <Instagram className="hover:text-primary transition-colors duration-300"/>
                 </a>
               </div>
             </div>

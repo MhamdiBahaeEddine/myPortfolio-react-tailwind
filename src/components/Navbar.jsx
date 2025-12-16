@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { cn } from "../lib/utils";
-import { href } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
 
 const navItems = [
   { name: "Home", href: "#hero" },
@@ -32,7 +32,7 @@ export const Navbar = () => {
       )}
     >
       <div className="container flex items-center justify-between">
-        <a className="text-xl font-bold flex items-center" href="#here">
+        <a className="text-xl font-bold flex items-center" href="#hero">
           <span className="relative z-10">
             <span children="text-glow text-foreground">
               Bahae Eddine Mhamdi
@@ -46,12 +46,14 @@ export const Navbar = () => {
           {navItems.map((item, key) => (
             <a
               href={item.href}
-              key={item.key}
+              key={key}
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
               {item.name}
             </a>
           ))}
+          {/* Theme Toggle */}
+          <ThemeToggle />
         </div>
 
         {/* mobile */}
@@ -84,6 +86,8 @@ export const Navbar = () => {
                 {item.name}
               </a>
             ))}
+            {/* Theme Toggle */}
+            <ThemeToggle />
           </div>
         </div>
       </div>
