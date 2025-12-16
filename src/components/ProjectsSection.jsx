@@ -32,7 +32,7 @@ const projects = [
     id: 4,
     title: "Cyborg",
     description: "A stunning landing page",
-    image: "/projects/project4.png",
+    image: "/projects/cyborg.png",
     tags: ["React", "Tailwind", "Javascript", "Responsive"],
     demoUrl: "https://cyborg-rosy.vercel.app/",
     githubUrl: "https://github.com/MhamdiBahaeEddine/cyborg",
