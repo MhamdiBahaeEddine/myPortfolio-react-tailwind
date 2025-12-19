@@ -20,15 +20,15 @@ export const ContactSection = () => {
 
     // Enable when email is finished
 
-    // setIsSubmitting(true);
+    setIsSubmitting(true);
 
-    // setTimeout(() => {
-    //   toast({
-    //     title: "Message sent!",
-    //     description: "Thank you for your message. I'll get back to you soon.",
-    //   });
-    //   setIsSubmitting(false);
-    // }, 1500);
+    setTimeout(() => {
+      toast({
+        title: "Available for freelance projects via Upwork.",
+        description: "For contact, please use Upwork messaging system.",
+      });
+      setIsSubmitting(false);
+    }, 1500);
   };
 
   return (
@@ -53,9 +53,8 @@ export const ContactSection = () => {
                   <h4 className="font-medium">Email</h4>
                   <a
                     className="text-muted-foreground hover:text-primary transition-colors duration-300"
-                    href="mailto:bahaeeddine120@gmail.com"
                   >
-                    bahaeeddine120@gmail.com
+                    exemple@gmail.com
                   </a>
                 </div>
               </div>
@@ -67,9 +66,8 @@ export const ContactSection = () => {
                   <h4 className="font-medium">Phone</h4>
                   <a
                     className="text-muted-foreground hover:text-primary transition-colors duration-300"
-                    href="tel:+212762651545"
                   >
-                    +212 762651545
+                    +12345678910
                   </a>
                 </div>
               </div>
@@ -80,7 +78,7 @@ export const ContactSection = () => {
                 <div className="">
                   <h4 className="font-medium">Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors duration-300">
-                    60000 Oujda, Morocco
+                    abcde, fghij
                   </a>
                 </div>
               </div>
@@ -90,16 +88,16 @@ export const ContactSection = () => {
               <div className="flex space-x-4 justify-center">
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/bahae-eddine-mhamdi-13190b247"
+                  href="https://www.linkedin.com"
                 >
                   <Linkedin className="hover:text-primary transition-colors duration-300"/>
                 </a>
-                <a target="_blank" href="https://github.com/MhamdiBahaeEddine">
+                <a target="_blank" href="https://github.com">
                   <Github className="hover:text-primary transition-colors duration-300"/>
                 </a>
                 <a
                   target="_blank"
-                  href="https://www.instagram.com/m_bahaeeddine"
+                  href="https://www.instagram.com"
                 >
                   <Instagram className="hover:text-primary transition-colors duration-300"/>
                 </a>
