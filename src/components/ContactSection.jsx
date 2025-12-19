@@ -90,7 +90,7 @@ export const ContactSection = () => {
               <div className="flex space-x-4 justify-center">
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/bahae-eddine-mhamdi-13190b247/"
+                  href="https://www.linkedin.com/in/bahae-eddine-mhamdi-13190b247"
                 >
                   <Linkedin className="hover:text-primary transition-colors duration-300"/>
                 </a>
@@ -99,7 +99,7 @@ export const ContactSection = () => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://www.instagram.com/m_bahaeeddine/"
+                  href="https://www.instagram.com/m_bahaeeddine"
                 >
                   <Instagram className="hover:text-primary transition-colors duration-300"/>
                 </a>
